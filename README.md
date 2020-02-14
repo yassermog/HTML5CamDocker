@@ -1,16 +1,20 @@
 # HTML5CamDocker
-HTML5 WebCam from Docker
+HTML5 WebCam from a Docker Container 
+
+clone the code and change the directory to the folder 
+
+build the image 
 
 ```
-docker build -t testcam .
+$ docker build -t testcam .
 ```
 
-```
-docker run -p 8000:8000 testcam --detach
-```
-
-enjoy 
+run the docker container 
 
 ```
-http://localhost:8000
+$ docker run -p 8000:8000 testcam --detach
 ```
+
+enjoy !
+
+( http://localhost:8000 )
